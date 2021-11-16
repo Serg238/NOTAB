@@ -1,0 +1,624 @@
+@media (max-width: 1240px){
+  .main__container {
+    padding: 0px 50px 0px 50px;
+  }
+  .content-main__title{
+    padding: 100px 0;
+  }
+  .mobile-image__img img {
+    object-fit: cover ;}
+    
+}
+
+@media (max-width: 1100px) {
+  .header__row {
+    justify-content: space-around;
+  }
+  
+  .header__logo-img-Cube {
+    width: 82px;
+    height: 82px;
+  }
+  .header__logo-img-NoTab {
+    width: 62px;
+  }
+  .header__login {
+    font-size: 16px;
+  }
+  .main__content {
+    
+  }
+  
+  .mobile-image__img img{
+    /* top: -10%;
+    left:10%; */
+  }
+  .our-mission__cards {
+    justify-content: center;
+    margin-bottom: 246px;
+    flex-wrap: wrap;
+  }
+  .our-mission__card-one {
+    margin-right: 0px;
+  }
+}
+/* 
+.content-main__title {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+.content-main__title h1 {
+  font-size: 35px;
+  line-height: 40px;
+  padding: 0;
+}
+.content-main__text {
+  max-width: 500px;
+  margin-left: 0px;
+  margin-bottom: 160px;
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+}
+.content-main__text img {
+  display: none;
+}
+.content-main__text p {
+  flex: 0 1 100%;
+} */
+@media (max-width: 992px) {
+  .content-main__title {
+    padding-top:90px;
+    padding-bottom: 20px;
+  }
+  .content-main__title h1 {
+    font-size: 54px;
+  line-height: 60px;
+    padding: 0px 0px 0px 50px;
+  }
+
+}
+@media (max-width: 840px) {
+  img {
+    /* height: auto;
+    max-width: 100%; */
+  }
+  ._container {
+    /* max-width: 800px; */
+  }
+  .header {
+    overflow: hidden;
+  }
+  .header__mobile {
+    margin-right: -100px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 40px;
+    padding-left: 30px;
+  }
+  .content-main__title {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  .content-main__title h1 {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 0;
+  }
+  .content-main__text {
+    max-width: 300px;
+    margin-left: 0px;
+    margin-bottom: 160px;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .content-main__text img {
+    display: none;
+  }
+  .content-main__text p {
+    flex: 0 1 100%;
+  }
+
+  .our-mission__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    margin: 0px 0px 30px 0px;
+  }
+  .our-mission__mobile {
+    display: none;
+  }
+  input,
+  textarea {
+    width: 90%;
+    margin: 10px;
+  }
+  #venueCity {
+    width: 90%;
+    float: none;
+    margin-right: 10px;
+  }
+  #stateCity {
+    width: 90%;
+  }
+  .main__bottom {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .download-block {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .download-block a img {
+    width: 185px;
+    height: 60px;
+  }
+  .download-block a {
+    margin: 10px;
+  }
+  .content-main__bottom-text {
+    margin: 0px 0px 20px 0px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .body-block {
+    margin: 0 auto;
+
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .toolIntegration__body {
+  }
+
+  .scanner {
+    padding: 0;
+  }
+  .scanner__bg {
+    height: 600px;
+  }
+  .scanner__row {
+    flex-direction: column;
+    position: static;
+
+    margin: 0 auto;
+  }
+  .scanner__container {
+    position: static;
+  }
+  .scanner__mobiles {
+    flex-direction: column;
+    margin: 0 auto;
+    order: 2;
+  }
+
+  .scanner__mobiles-img {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .scanner__body {
+    padding-bottom: 75px;
+    order: 1;
+  }
+
+  .toolIntegration {
+    padding: 50px 0px 50px 0px;
+  }
+  .toolIntegration__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toolIntegration__title {
+    margin: 0px;
+  }
+  .toolIntegration__img {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  /* ввввввввв------------- */
+  .nightlife {
+    /* height: 1500px; */
+  }
+  .nightlife__container {
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+  }
+
+  .nightlife__bg-1 {
+    
+
+    flex: 1 1 500px;
+
+    margin-bottom: 100px;
+  }
+  .nightlife__bg-2 {
+    width: 600px;
+    height: 300px;
+    /* flex: 0 1 500px; */
+  }
+  .nightlife__inner {
+    position: static;
+    top: 440px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1700px;
+  }
+
+  .nightlife__body {
+    align-self: flex-start;
+    height: 30%;
+  }
+  .nightlife__title {
+  }
+
+  .nightlife__text {
+    margin-bottom: 30px;
+  }
+
+  .nightlife__download {
+    display: flex;
+  }
+
+  .nightlife__mobile-1 {
+    padding: 0px 0px 0px 0px;
+  }
+  .nightlife__mobile-2 img {
+    padding: 50px 0px 0px 0px;
+  }
+  .generate__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .generate__tatle {
+    flex: 0 1 100%;
+    align-self: center;
+  }
+  .generate__tatle .body-block__subtitle span {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  /* generate-------------------------------------- */
+  .generate {
+    padding-top: 130px;
+  }
+  .generate__body {
+    display: block;
+    order: 1;
+  }
+  .generate__mb {
+    flex: 0 1 60%;
+    order: 2;
+    justify-content: center;
+  }
+  .generate__mb img {
+    width: 90%;
+  }
+  .generate__text-block {
+    flex: 0 1 35%;
+    display: flex;
+    order: 3;
+    margin-bottom: 60px;
+  }
+  .generate__text {
+    width: 50%;
+  }
+  .generate__title span {
+    display: inline-block;
+  }
+  .generate__text-block {
+    display: none;
+  }
+  /* ----- */
+  .easier__inner {
+    width: 700px;
+  }
+  .easier__top {
+    margin-bottom: 50px;
+  }
+  .easier__column {
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+  }
+  .module-1 {
+    margin: 0px;
+  }
+  .module-2 {
+    align-self: flex-start;
+    margin-right: 0px;
+  }
+  .module-3 {
+    align-self: center;
+    margin: 150px 0px 0px 0px;
+  }
+  .module-4 {
+    margin: 0px 0px -50px 0px;
+  }
+  .notab {
+    display: none;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .column-footer__one {
+    order: 2;
+    text-align: center;
+  }
+  .column-footer__two {
+    order: 1;
+    margin-bottom: 40px;
+  }
+  .footer__email a {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 800px) {
+  .easier__inner {
+    width: 650px;
+  }
+  input {
+    padding: 10px 18px;
+  }
+  .main__container {
+    padding: 0px 10px 0px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobile-image__img {
+    
+    flex: 0 1 40%;
+    padding: 0px;
+    
+  }
+  .mobile-image__img img{
+    
+   
+  }
+  .nightlife__bg-1 {
+    flex: 0 1 611px;
+    /* background-size: cover; */
+    width: 400px;
+  }
+  .nightlife__bg-2 {
+    flex: 0 1 611px;
+    /* background-size: cover; */
+    width: 400px;
+  }
+  .easier__inner {
+    width: 500px;
+  }
+  .toolIntegration__img {
+    width: 500px;
+  }
+  input[type="submit"] {
+    width: 90%;
+  }
+  
+}
+@media (max-width: 500px) {
+
+  .main__container {
+    padding: 0px 0px 0px 30px;
+  }
+  .header__logo-img-Cube {
+    width: 52px;
+    height: 52px;
+  }
+  .header__logo-img-NoTab {
+    width: 42px;
+  }
+  .header__login {
+    background: none;
+    font-size: 14px;
+
+    padding: 0;
+  }
+  .header__login::after {
+    padding-bottom: 25px;
+  }
+  .mobile-image__img {
+    
+    flex: 0 1 40%;
+    padding: 0px;
+    
+  }
+  .nightlife__bg-1 {
+    flex: 0 1 411px;
+    /* background-size: cover; */
+    width: 406px;
+  }
+  .nightlife__bg-2 {
+    flex: 0 1 411px;
+    /* background-size: cover; */
+    width: 406px;
+  }
+  .easier__inner {
+    width: 450px;
+  }
+  .toolIntegration__img {
+    width: 400px;
+  }
+  .generate__mb img {
+    width: 80%;
+  }
+  .scanner__bg {
+    height: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nightlife__bg-1 {
+    flex: 0 1 311px;
+    /* background-size: cover; */
+    width: 306px;
+  }
+  .nightlife__bg-2 {
+    flex: 0 1 311px;
+    /* background-size: cover; */
+    width: 306px;
+  }
+  .easier__inner {
+    width: 360px;
+    height: 430px;
+  }
+  .toolIntegration__img {
+    width: 300px;
+  }
+  .scanner__bg {
+    height: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  
+  
+ 
+  
+  
+  
+
+  .card {
+    flex: 0 0 203px;
+    /* height: 312px; */
+    padding: 39px 54px 0px 33px;
+  }
+  .card__title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .card__mail-link,
+  .card__login-link {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .our-mission__cards{
+    margin-bottom: 100px;
+  }
+  .our-mission__card-two {
+  }
+  .body-block__subtitle {
+    font-size: 24px;
+    line-height: 29px;
+    width: 100%;
+  }
+  .body-block {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .body-block__text {
+    font-size: 16px;
+  line-height: 22px;
+    font-weight: 300;
+  }
+
+  .our-mission__mobile-sm {
+     width: 100%;
+   /* margin-left: -30px; */
+  
+    background: url(../img/our-mission__mobile_375px.png) no-repeat;
+    /* background-position: 0px 0px; */
+    height: 500px;
+    color:#fff ;
+  }
+
+.easier__inner {
+  background: url(../img/iPhoneXSLongscrollMockup1_375.png) no-repeat;
+  max-width: 360px;
+  height: 430px;
+  margin: 0 auto ;
+  
+}
+.easier__text{
+  margin-bottom: 50px;
+}
+.easier__module {
+  padding: 13px 15px;
+  
+  font-size: 14px;
+line-height: 16px;
+}
+.module-1 {
+  margin-top: -70px;
+  margin-left: 10px;
+}
+.module-2 {
+  margin-right: 10px;
+}
+.module-3 {
+  margin: 25px 0px 0px -40px;
+
+}
+.module-4 {
+   margin: 0px 40px -80px 0px;
+}
+.getInTouch__title {
+  margin-top: 100px;
+}
+.cookie {
+  top: 2100px;
+}
+.cookie__btn {
+  
+  width: 92px;
+  margin-right: 0px;
+  
+}
+.cookie__container {
+ 
+  padding: 20px 30px 20px 10px;
+}
+.cookie__text {
+  font-size: 12px;
+line-height: 16px;
+flex:0 1 60% ;
+padding: 0px 0px 0px 20px;
+}
+.our-mission {
+  padding-bottom: 0px;
+}
+.toolIntegration__image {
+  flex: 0 1 200px;
+}
+.nightlife__body{
+  top: -490px;
+  position: relative;
+}
+.body-block__subtitle{
+  font-size: 24px;
+line-height: 29px;
+}
+.body-block__text {
+  font-size: 16px;
+  line-height: 22px;
+}
+.nightlife__bg-2{
+  position: relative;
+  top: 150px;
+}
+.easier__inner{
+  margin-left: -10px;
+}
+
+}
