@@ -44,7 +44,7 @@ function autoSlider(){
     right();
 }
 
-setInterval(autoSlider,2000);
+// setInterval(autoSlider,2000);
 
 function clearSlider(current) {
     slider(current);
