@@ -550,7 +550,7 @@ h2 {
 .easier__inner {
   background: url(../img/iPhoneXSLongscrollMockup1.png) 0 0 no-repeat;
   max-width: 868px;
-  max-height: 1000px;
+  height: 1000px;
   margin: 0 auto;
   display: flex;
 }
