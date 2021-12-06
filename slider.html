@@ -1,34 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css-slider/style.css" />
-  </head>
-  <body>
-    <div class="infinity-slider-wrap">
-      <div class="infinity-slider">
-        <img src="./img-slider/1.jpg" alt="foto" />
-        <img src="./img-slider/2.jpg" alt="foto" />
-        <img src="./img-slider/3.jpeg" alt="foto" />
-        <img src="./img-slider/4.jpeg" alt="foto" />
-      </div>
-      <div class="click_button">
-        <div class="left_button">&lt;</div>
-        <div class="right_button">&gt;</div>
-      </div>
-      <div class="button_three">
-        <button class="button_item new_class"></button>
-        <button class="button_item"></button>
-        <button class="button_item"></button>
-        <button class="button_item"></button>
-        <!-- <button class="button_item"></button>
-        <button class="button_item"></button>
-        <button class="button_item"></button> -->
-      </div>
-    </div>
+<html>
+    <head>
+        <title>Slider</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="slider/style.css">
+        <script async src="slider/script.js"></script>
+    </head>
+    <body onload="load()">
 
-    <script src="js-slider/script.js"></script>
-  </body>
+        <div class="container">
+            <div id="wrapper">
+                <div id="overflow">
+                    <div id="slider_track">
+                        <div class="slider_item">1</div>
+                        <div class="slider_item">2</div>
+                        <div class="slider_item">3</div>
+                        <div class="slider_item">4</div>
+                        <div class="slider_item">5</div>
+                    </div>
+                </div>
+                <a class="prev" onclick="previousPage()">&#10094;</a>
+                <a class="next" onclick="nextPage()">&#10095;</a>
+            </div>
+            <div id="controls">
+                <div onclick="setPage(0)" class="checked"></div>
+                <div onclick="setPage(1)"></div>
+                <div onclick="setPage(2)"></div>
+                <div onclick="setPage(3)"></div>
+                <div onclick="setPage(4)"></div>
+            </div>
+        </div>
+    </body>
 </html>
